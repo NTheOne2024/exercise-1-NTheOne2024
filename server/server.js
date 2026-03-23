@@ -51,5 +51,6 @@ app.get('/movies', function (req, res) {
     res.json(movies);
 })
 
+
 app.listen(3000)
 console.log("Server now listening on http://localhost:3000/")
